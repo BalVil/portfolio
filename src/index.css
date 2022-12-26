@@ -65,6 +65,7 @@ h1 {
 }
 
 section {
+  height: 100vh;
   margin-top: 6rem;
 }
 
