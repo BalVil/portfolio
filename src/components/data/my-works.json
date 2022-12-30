@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "image": "https://res.cloudinary.com/dttixr5pw/image/upload/v1672358460/portfolio/petly_960_ydloje.jpg",
+    "title": "MERN-Stack App for finding a pet with authorization",
+    "github": "https://github.com/BalVil/petly_frontend",
+    "demo": "https://find-your-awesome-petly.netlify.app"
+  },
+  {
+    "id": 2,
+    "image": "https://res.cloudinary.com/dttixr5pw/image/upload/v1672358712/portfolio/phonebook_960_krylx9.jpg",
+    "title": "Contact Management App with authorization",
+    "github": "https://github.com/BalVil/goit-react-hw-08-phonebook-v2",
+    "demo": "https://balvil.github.io/goit-react-hw-08-phonebook-v2/"
+  },
+  {
+    "id": 3,
+    "image": "https://res.cloudinary.com/dttixr5pw/image/upload/v1672358712/portfolio/filmoteka_960_r4vkr8.jpg",
+    "title": "Movie database app with tmdb api",
+    "github": "https://github.com/BalVil/project_group_Filmoteka-JS-",
+    "demo": "https://balvil.github.io/project_group_Filmoteka-JS-/"
+  },
+  {
+    "id": 4,
+    "image": "https://res.cloudinary.com/dttixr5pw/image/upload/v1672358712/portfolio/ImageSearch_960_wpomep.jpg",
+    "title": "Image search/show app",
+    "github": "https://github.com/BalVil/goit-js-hw-11",
+    "demo": "https://balvil.github.io/goit-js-hw-11/"
+  },
+  {
+    "id": 5,
+    "image": "https://res.cloudinary.com/dttixr5pw/image/upload/v1672358712/portfolio/IceCream_960_h6b69w.jpg",
+    "title": "Responsive landing page for a store",
+    "github": "https://github.com/BalVil/project_group_IceCream",
+    "demo": "https://balvil.github.io/project_group_IceCream/"
+  },
+  {
+    "id": 6,
+    "image": "https://res.cloudinary.com/dttixr5pw/image/upload/v1672358712/portfolio/webstudio_960_vrewip.jpg",
+    "title": "Responsive three-page website",
+    "github": "https://github.com/BalVil/goit-markup-hw-08",
+    "demo": "https://balvil.github.io/goit-markup-hw-08/"
+  }
+]

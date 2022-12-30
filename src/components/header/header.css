@@ -1,12 +1,5 @@
-header {
-  height: 100vh;
-  padding-top: 7rem;
-  overflow: hidden;
-}
-
 .header__container {
   position: relative;
-  height: 100%;
   text-align: center;
 }
 
@@ -38,15 +31,11 @@ header {
 
 /* ========= ME =========== */
 .me {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-
-  /* left: calc(50% - 11rem); */ /*or*/
-  width: 22rem;
-  height: 22rem; /*30rem*/
+  margin: 0 auto;
+  height: 30rem;
+  width: 19rem;
   margin-top: 4rem;
-  padding-top: 1rem;
+  padding: 4rem 1.5rem 1.5rem 1.5rem;
   border-radius: 12rem 12rem 0 0;
 
   overflow: hidden;
@@ -64,23 +53,9 @@ header {
 }
 
 /* ================ Media queries (small devices) =============== */
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 599px) {
   .header__socials,
   .scroll__down {
-    display: none;
-  }
-}
-
-/* ================ Media queries (medium devices) =============== */
-@media screen and (min-width: 720px) {
-  header {
-    height: 68vh;
-  }
-}
-
-/* ================ Media queries (large devices) =============== */
-@media screen and (min-width: 1280px) {
-  header {
-    height: 100vh;
+    visibility: hidden;
   }
 }
