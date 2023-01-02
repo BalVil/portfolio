@@ -15,14 +15,14 @@
   },
   {
     "id": 3,
-    "image": "https://res.cloudinary.com/dttixr5pw/image/upload/v1672358712/portfolio/filmoteka_960_r4vkr8.jpg",
+    "image": "https://res.cloudinary.com/dttixr5pw/image/upload/v1672617387/portfolio/filmoteka_960_kpun1f.jpg",
     "title": "Movie database app with tmdb api",
     "github": "https://github.com/BalVil/project_group_Filmoteka-JS-",
     "demo": "https://balvil.github.io/project_group_Filmoteka-JS-/"
   },
   {
     "id": 4,
-    "image": "https://res.cloudinary.com/dttixr5pw/image/upload/v1672358712/portfolio/ImageSearch_960_wpomep.jpg",
+    "image": "https://res.cloudinary.com/dttixr5pw/image/upload/v1672616857/portfolio/imagesearch_960_kmjmdw.jpg",
     "title": "Image search/show app",
     "github": "https://github.com/BalVil/goit-js-hw-11",
     "demo": "https://balvil.github.io/goit-js-hw-11/"

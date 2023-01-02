@@ -1,0 +1,26 @@
+[
+  {
+    "avatar": "https://res.cloudinary.com/dttixr5pw/image/upload/v1672616236/portfolio/avatar1_sf6ibm.jpg",
+    "name": "Ivetta Dashkova",
+    "position": "FrontEnd Developer",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum velit quod aspernatur minima doloremque, ducimus similique omnis ratione."
+  },
+  {
+    "avatar": "https://res.cloudinary.com/dttixr5pw/image/upload/v1672616237/portfolio/avatar2_wpr5up.jpg",
+    "name": "Hanna Pylypenko",
+    "position": "Junior Project Manager",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum velit quod aspernatur minima doloremque, ducimus similique omnis ratione. Nostrum velit quod aspernatur, ducimus similique omnis ratione."
+  },
+  {
+    "avatar": "https://res.cloudinary.com/dttixr5pw/image/upload/v1672616236/portfolio/avatar3_ajewas.jpg",
+    "name": "Eduard Sergienko",
+    "position": "TeamLead",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum velit quod aspernatur minima doloremque, ducimus similique omnis ratione."
+  },
+  {
+    "avatar": "https://res.cloudinary.com/dttixr5pw/image/upload/v1672616237/portfolio/avatar4_avrdag.jpg",
+    "name": "Nadiia Khrystiuk",
+    "position": "FullStack Developer",
+    "desc": "Lorem dolor sit amet consectetur adipisicing elit. Nostrum velit quod aspernatur minima doloremque."
+  }
+]

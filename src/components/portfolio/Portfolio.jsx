@@ -1,5 +1,5 @@
+import works from "data/my-works.json";
 import "./portfolio.css";
-import works from "components/data/my-works.json";
 
 const Portfolio = () => {
   return (
