@@ -10,3 +10,36 @@ footer {
 footer a {
   color: var(--color-bg);
 }
+
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 2rem;
+
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.permalinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto 2rem;
+}
+
+.footer__copyright {
+  margin-bottom: 4rem;
+  color: var(--color-bg);
+}
+
+/* ================ Media queries (medium devices) =============== */
+@media screen and (max-width: 1279px) {
+}
+
+/* ================ Media queries (small devices) =============== */
+@media screen and (max-width: 599px) {
+  .permalinks {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}

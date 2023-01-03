@@ -54,7 +54,12 @@ textarea {
 
   background: transparent;
   color: var(--color-white);
+  font-family: inherit;
   font-size: 1rem;
+}
+
+.btn-form {
+  font-size: inherit;
 }
 
 /* ================ Media queries (medium devices) =============== */
@@ -76,7 +81,7 @@ textarea {
     width: var(--container-width-sm);
   }
 
-  /* .btn-form {
+  .btn-form {
     margin: 0 auto;
-  } */
+  }
 }
