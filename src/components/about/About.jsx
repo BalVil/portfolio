@@ -3,7 +3,7 @@ import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 import "./about.css";
-import Me from "assets/me.jpg";
+import MeAbout from "assets/me-about.jpg";
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={Me} alt="me about" />
+            <img src={MeAbout} alt="me about" />
           </div>
         </div>
         <div className="about__content">

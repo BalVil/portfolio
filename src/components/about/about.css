@@ -2,13 +2,12 @@
   display: grid;
   grid-template-columns: 35% 55%;
   gap: 10%;
-  /* align-items: center; */
 }
 
 .about__me {
   width: 100%; /*or auto?*/
   display: grid;
-  /* place-items: center; */ /* for large photos*/
+  place-items: center;
   aspect-ratio: 1/1;
   border-radius: 2rem;
 

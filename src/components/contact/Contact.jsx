@@ -1,8 +1,25 @@
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { MdOutlineMail } from "react-icons/md";
 import { TbBrandTelegram, TbBrandMessenger } from "react-icons/tb";
 import "./contact.css";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_tkfoa3l",
+      "template_cj0235c",
+      form.current,
+      "M3CKkN1Jh-PuTTz3N"
+    );
+
+    e.target.reset();
+  };
+
   return (
     <section id="contact">
       <h5>Get in touch</h5>
@@ -32,7 +49,7 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form>
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Your name" required />
           <input type="email" name="email" placeholder="Your email" required />
           <textarea
@@ -41,8 +58,8 @@ const Contact = () => {
             placeholder="Your message"
             required
           ></textarea>
-          <button type="submit" className="btn btn-primary">
-            Send message
+          <button type="submit" className="btn btn-primary btn-form">
+            Send
           </button>
         </form>
       </div>

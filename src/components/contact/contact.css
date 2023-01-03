@@ -48,5 +48,35 @@ input,
 textarea {
   width: 100%;
   padding: 1.5rem;
+  border: 2px solid var(--color-primary-variant);
   border-radius: 0.5rem;
+  resize: none;
+
+  background: transparent;
+  color: var(--color-white);
+  font-size: 1rem;
+}
+
+/* ================ Media queries (medium devices) =============== */
+@media screen and (max-width: 1279px) {
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  input,
+  textarea {
+    padding: 1rem;
+  }
+}
+
+/* ================ Media queries (small devices) =============== */
+@media screen and (max-width: 599px) {
+  .container.contact__container {
+    width: var(--container-width-sm);
+  }
+
+  /* .btn-form {
+    margin: 0 auto;
+  } */
 }
