@@ -1,3 +1,6 @@
+import { ToastContainer, Slide } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import About from "./components/about/About";
@@ -18,6 +21,8 @@ const App = () => {
       <Testimonials />
       <Contact />
       <Footer />
+
+      <ToastContainer autoClose={3000} transition={Slide} />
     </>
   );
 };

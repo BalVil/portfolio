@@ -2,6 +2,8 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { MdOutlineMail } from "react-icons/md";
 import { TbBrandTelegram, TbBrandMessenger } from "react-icons/tb";
+
+import notices from "helpers/Notification/Notification";
 import "./contact.css";
 
 const Contact = () => {
@@ -10,12 +12,19 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      "service_tkfoa3l",
-      "template_cj0235c",
-      form.current,
-      "M3CKkN1Jh-PuTTz3N"
-    );
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+      )
+      .then(() => {
+        notices.showSuccess("The email has been sent");
+      })
+      .catch(() => {
+        notices.showError("Something went wrong. Please try again");
+      });
 
     e.target.reset();
   };
