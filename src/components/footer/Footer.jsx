@@ -3,11 +3,9 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer>
-      <div>
-        <a href="#top" className="footer__logo">
-          BALUTA
-        </a>
-      </div>
+      <a href="#top" className="footer__logo">
+        BALUTA
+      </a>
 
       <ul className="permalinks">
         <li>

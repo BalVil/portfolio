@@ -18,9 +18,9 @@
 
   --transition: all 300ms ease;
 
-  --container-width-lg: 80%;
-  --container-width-md: 85%;
-  --container-width-sm: 90%;
+  --container-width-mobile: 90%;
+  --container-width-tablet: 85%;
+  --container-width-desktop: 80%;
 }
 
 html {
@@ -42,14 +42,12 @@ body {
   color: var(--color-white);
   line-height: 1.7;
   background-image: url("./assets/bg-texture2.png");
-
-  /* --small-devices-breakpoint: 599px;
-  --medium-devices-breakpoint: 1279px; */
 }
 
 /* ================ General styles ================= */
 .container {
-  width: var(--container-width-lg);
+  width: var(--container-width-mobile);
+
   margin: 0 auto;
 }
 
@@ -66,7 +64,7 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 section > h2,
@@ -76,7 +74,7 @@ section > h5 {
 }
 
 section > h2 {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   color: var(--color-primary);
 }
 
@@ -122,23 +120,23 @@ img {
 }
 
 /* ================ Media queries (medium devices) =============== */
-@media screen and (max-width: 1279px) {
+@media screen and (min-width: 720px) {
   .container {
-    width: var(--container-width-md);
-  }
-
-  section {
-    margin-top: 6rem;
-  }
-}
-
-/* ================ Media queries (small devices) =============== */
-@media screen and (max-width: 599px) {
-  .container {
-    width: var(--container-width-sm);
+    width: var(--container-width-tablet);
   }
 
   section > h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+  }
+}
+
+/* ================ Media queries (large devices) =============== */
+@media screen and (min-width: 1280px) {
+  .container {
+    width: var(--container-width-desktop);
+  }
+
+  section {
+    margin-top: 8rem;
   }
 }
