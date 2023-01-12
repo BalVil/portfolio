@@ -27,6 +27,7 @@ const Footer = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
+
       <div className="footer__copyright">
         <small>&copy; Baluta Portfolio. All rights reserved.</small>
       </div>

@@ -3,6 +3,12 @@
   text-align: center;
 }
 
+.header__language-switch {
+  width: max-content;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
 .cta {
   display: flex;
   justify-content: center;
