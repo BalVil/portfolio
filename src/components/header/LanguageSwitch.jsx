@@ -3,7 +3,7 @@ import Select from "react-select";
 
 const lngs = {
   en: { nativeName: "English" },
-  ua: { nativeName: "Українська" },
+  uk: { nativeName: "Українська" },
 };
 
 const options = Object.keys(lngs).map((lng) => {
@@ -12,11 +12,9 @@ const options = Object.keys(lngs).map((lng) => {
 
 const LanguageSwitch = () => {
   const { i18n } = useTranslation();
-  //   const [selected, setSelected] = useState(null);
 
   const handleChange = ({ value }) => {
     i18n.changeLanguage(value);
-    // setSelected(selectedOption);
   };
 
   const customStyles = {
@@ -46,27 +44,10 @@ const LanguageSwitch = () => {
     <Select
       className="language-switch"
       onChange={handleChange}
-      //   onChange={(e) => i18n.changeLanguage(e.target.value)}
       options={options}
       styles={customStyles}
       defaultValue={options}
     />
-
-    // <div className="language-switch" aria-labelledby="language-switch">
-    //   {Object.keys(lngs).map((lng) => (
-    //     <button
-    //       className={`${lng === "en" ? "left" : "right"} `}
-    //       key={lng}
-    //       style={{
-    //         fontWeight: i18n.resolvedLanguage === lng ? "bold" : "normal",
-    //       }}
-    //       type="submit"
-    //       onClick={() => i18n.changeLanguage(lng)}
-    //     >
-    //       {lngs[lng].nativeName}
-    //     </button>
-    //   ))}
-    // </div>
   );
 };
 

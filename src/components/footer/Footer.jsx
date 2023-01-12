@@ -1,6 +1,10 @@
+import { useTranslation } from "react-i18next";
+
 import "./footer.css";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer>
       <a href="#top" className="footer__logo">
@@ -9,22 +13,22 @@ const Footer = () => {
 
       <ul className="permalinks">
         <li>
-          <a href="#top">Home</a>
+          <a href="#top">{t("footer.home")}</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about">{t("footer.about")}</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#experience">{t("footer.experience")}</a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio">{t("footer.portfolio")}</a>
         </li>
         <li>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#testimonials">{t("footer.testimonials")}</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">{t("footer.contact")}</a>
         </li>
       </ul>
 

@@ -3,7 +3,49 @@
     "greeting": "Hello, I'm",
     "name": "Vitalii Baluta",
     "cv": "Download CV",
-    "talk": "Let's Talk",
-    "scroll": "Scroll Down"
+    "talk": "Let's talk",
+    "scroll": "Scroll down"
+  },
+  "about": {
+    "meet": "Get to know",
+    "me": "About me",
+    "experience": "Experience",
+    "duration_one": "year",
+    "duration_other": "years",
+    "team": "Team projects",
+    "individual": "Individual projects",
+    "summary": "I am a FullStack JavaScript Developer aspiring to join a dynamic,active company to create in-demand business solutions.<br/>I know HTML/CSS, JavaScript, React, Node.js and have practical experience using them both in team and individual projects.<br/>I try to add features that will be in demand by a potential customer/user. <br/>During team projects, I adhere to the Agile/Scrum methodology and have experience performing tasks as a Scrum Master."
+  },
+  "experience": {
+    "skills": "What skills I have",
+    "my": "My experience",
+    "level_one": "Basic",
+    "level_two": "Intermediate",
+    "level_three": "Experienced"
+  },
+  "portfolio": {
+    "works": "My recent work",
+    "title": "Portfolio"
+  },
+  "testimonials": {
+    "reviews": "Third-party reviews",
+    "title": "Testimonials"
+  },
+  "contact": {
+    "touch": "Get in touch",
+    "title": "Contact me",
+    "message": "Send a message",
+    "name": "Your name",
+    "email": "Your email",
+    "text": "Your message",
+    "send": "Send"
+  },
+  "footer": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "portfolio": "Portfolio",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
   }
 }

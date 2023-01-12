@@ -1,0 +1,19 @@
+{
+  "header": {
+    "greeting": "Hallo, ich heiße",
+    "name": "Vitalii Baluta",
+    "cv": "Lebenslauf",
+    "talk": "Reden wir",
+    "scroll": "Runterscrollen"
+  },
+  "about": {
+    "meet": "Get to know",
+    "me": "About me",
+    "experience": "Experience",
+    "duration_one": "year",
+    "duration_other": "years",
+    "team": "Team projects",
+    "individual": "Individual projects",
+    "summary": "I am a FullStack JavaScript Developer aspiring to join a dynamic,active company to create in-demand business solutions.<br/>I know HTML/CSS, JavaScript, React, Node.js and have practical experience using them both in team and individual projects.<br/>I try to add features that will be in demand by a potential customer/user. <br/>During team projects, I adhere to the Agile/Scrum methodology and have experience performing tasks as a Scrum Master."
+  }
+}

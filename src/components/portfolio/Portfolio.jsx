@@ -1,11 +1,14 @@
+import { useTranslation } from "react-i18next";
 import works from "data/my-works.json";
 import "./portfolio.css";
 
 const Portfolio = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="portfolio">
-      <h5>My recent work</h5>
-      <h2>Portfolio</h2>
+      <h5>{t("portfolio.works")}</h5>
+      <h2>{t("portfolio.title")}</h2>
       <div className="container portfolio__container">
         {works.map(({ id, image, title, github, demo }) => {
           return (

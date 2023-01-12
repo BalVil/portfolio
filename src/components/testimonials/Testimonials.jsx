@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -7,10 +8,12 @@ import reviews from "data/reviews.json";
 import "./testimonials.css";
 
 const Testimonials = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="testimonials">
-      <h5>Third-party reviews</h5>
-      <h2>Testimonials</h2>
+      <h5>{t("testimonials.reviews")}</h5>
+      <h2>{t("testimonials.title")}</h2>
 
       <Swiper
         keyboard={{
