@@ -5,6 +5,8 @@
 }
 
 .experience__container > div {
+  container-type: inline-size;
+
   width: 100%;
   padding: 2rem 1rem;
   border: 1px solid transparent;
@@ -30,13 +32,23 @@
 
 .experience__content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 2rem;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+
+  @container (width >= 350px) {
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); */
+  }
+
+  @container (width >= 700px) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
 }
 
 .experience__details {
   display: flex;
-  gap: 1rem;
+  gap: 0.9rem;
 }
 
 .experience__details-icon {

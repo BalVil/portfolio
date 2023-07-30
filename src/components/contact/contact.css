@@ -1,7 +1,16 @@
-.container.contact__container {
+.contact__container {
+  container-type: inline-size;
+}
+
+.contact__content {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
+
+  @container (width >= 600px) {
+    grid-template-columns: 30% 60%;
+    gap: 10%;
+  }
 }
 
 .contact__options {
@@ -59,28 +68,16 @@ textarea {
 
 .btn-form {
   margin: 0 auto;
-
+  padding: 0.75rem 1.5rem;
   font-size: inherit;
-}
 
-/* ================ Media queries (medium devices) =============== */
-@media screen and (min-width: 720px) {
-  .container.contact__container {
-    width: 60%;
-  }
-
-  .btn-form {
+  @container (width >= 600px) {
     margin: 0;
   }
 }
 
 /* ================ Media queries (large devices) =============== */
 @media screen and (min-width: 1280px) {
-  .container.contact__container {
-    grid-template-columns: 30% 60%;
-    gap: 10%;
-  }
-
   input,
   textarea {
     padding: 1.5rem;

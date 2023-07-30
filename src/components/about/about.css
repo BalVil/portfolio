@@ -1,13 +1,12 @@
 .about__container {
   display: grid;
   grid-template-columns: 1fr;
+  align-items: center;
 }
 
 .about__me {
   width: 65%;
   margin: 0 auto 3rem;
-  display: grid;
-  place-items: center;
   aspect-ratio: 1/1;
   border-radius: 2rem;
 
